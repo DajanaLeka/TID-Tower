@@ -1,0 +1,193 @@
+:root{
+   --sans:'Open Sans', sans-serif;
+    --poppins:'Poppins', sans-serif;
+} 
+nav a, ul li{
+  font:normal  400 16px/39px var(--poppins);
+  color: #4A4A4A;
+}
+
+
+nav a:hover{
+  color: black;
+}
+
+
+.hmpage{
+height: 100vh;
+color: white;
+font-family: arial, helvetica, sans-serif;
+background-image:
+url('cover.png');
+background-repeat:no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+
+.homi{
+position: relative;
+padding-top: 350px;
+text-align: right;
+}
+
+
+.homi h1{
+ font:normal  700 68px/44px var(--poppins);
+color: #fff;
+}
+
+
+.homi h3{
+ font:normal  700 34px/44px var(--poppins);
+ color: #fff;
+}
+
+.btn{
+  font:normal  600 15px/23px var(--poppins);
+  color: #fff;
+  background-color: #fc9c4c;
+}
+
+
+h4{
+  font:normal  600 18px/89px var(--poppins);
+  color: #535353;
+}
+
+
+ h5{
+  font:normal  500 18px/47px var(--poppins);
+  color: #171717;
+  opacity: 0.8;
+}
+
+
+p{
+  font:normal  400 14px/24px var(--sans);
+  color: #5E5E5E;
+}
+
+
+.service{
+  padding-top: 80px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+
+.service h4{
+  font:normal  600 18px/89px var(--poppins);
+  color: #535353;
+}
+
+
+.service h5{
+  font:normal  500 18px/47px var(--poppins);
+  color: #FA9A48;
+}
+
+
+#more {display: none;}
+#myBtn{
+  border-style: none;
+  background-color: white;
+  font:normal  500 18px/24px var(--poppins);
+  color:#5e5e5e; 
+}
+
+
+#myBtn::before{
+content: "-";
+}
+
+
+.aboutus {
+  background-color: #F5F5F5;
+  opacity: 0.8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.aboutus h2{
+  font:normal  500 59px/79px var(--poppins);
+  color:#535353; 
+}
+
+.aboutus p{
+  font:normal  400 14px/26px var(--poppins);
+  color:#919191; 
+}
+
+.aboutus button{
+  margin-top: 20px;
+  font:normal  600 15px/23px var(--poppins);
+  color: #fff;
+  background-color: #fc9c4c;
+}
+.recentpro{
+  padding: 50px 0px;
+}
+
+.ourpro{
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.ourproject img{
+  padding-bottom: 20px;
+}
+
+.partner{
+  background-color:#F5F5F5;
+  opacity: 0.8;
+   padding: 80px 0px;
+}
+
+.partner h6{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+footer{
+  background-color: #626262;
+  color: white;
+  padding: 80px 0px;
+    text-align: center;
+}
+.navbr{
+
+    padding: 40px 200px 40px 200px;
+  }
+  
+    .row {
+    
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+
+  }
+.footer-nav a{
+  font:normal  400 16px/39px var(--poppins);
+  text-decoration: none;
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+ .fab{
+  
+   color: #818181;
+    background: #EFEFEF;
+      padding: 7px;
+  font-size: 10px;
+  width: 25px;
+  height: 25px;
+  
+  margin: 10px 7px;
+  border-radius: 50%;
+}
